@@ -9,7 +9,7 @@
         "user": "user",
         "password": "password",
         "database": "yukon",
-        "dialect": "mysql",
+        "dialect": "postgres",
         "debug": false,
         "logQueryParameters": false
     },

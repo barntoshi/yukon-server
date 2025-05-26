@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* [A MySQL database](https://www.mysql.com/)
+* [A PostgreSQL database](https://www.postgresql.org/)
 * [Node.js](https://nodejs.org/en/)
 * [yukon](https://github.com/wizguin/yukon)
 
@@ -42,9 +42,9 @@ npm install
 npm run secret-gen
 ```
 
-5. Import yukon.sql into your MySQL database.
+5. Import `yukon.sql` into your PostgreSQL database.
 
-6. Update MySQL database credentials.
+6. Update PostgreSQL database credentials.
 
 ```json
 "database": {
@@ -52,7 +52,7 @@ npm run secret-gen
     "user": "user",
     "password": "password",
     "database": "yukon",
-    "dialect": "mysql",
+    "dialect": "postgres",
     "debug": false
 },
 ```
